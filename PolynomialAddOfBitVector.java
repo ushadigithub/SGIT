@@ -1,4 +1,4 @@
-/*public class PolynomialAddOfBitVector {
+public class PolynomialAddOfBitVector {
     public static int[] addPolynomials(int[] poly1, int[] poly2) {
         int n = Math.max(poly1.length, poly2.length);
         int[] result = new int[n];
@@ -45,9 +45,6 @@
         System.out.print("Result Polynomial:");
         displayPolynomial(result);
     }
-    }*/
-
-
-
+}
 
 

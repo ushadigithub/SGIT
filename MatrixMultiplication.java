@@ -1,4 +1,4 @@
-/*public class MatrixMultiplication {
+public class MatrixMultiplication {
     public static void main(String[] args) {
         int[][] a = {{2, 3, 2}, {3, 2, 3}, {2, 1, 2}};
         int[][] b = {{2, 2, 2}, {2, 3, 2}, {2, 4, 3}};
@@ -13,5 +13,4 @@
             System.out.println();
         }
     }
-}*/
-
+}

@@ -15,7 +15,7 @@ public class MatrixSumRowsColumns {
             }
         }//print rowSums
         System.out.println("sum of rows:");
-        for (int i=0;i<rows;i++) {
+        for (int i = 0; i < rows; i++) {
             System.out.println("Row " + (i + 1) + ": " + rowSums[i]);
 
         }
@@ -25,13 +25,13 @@ public class MatrixSumRowsColumns {
                 colSums[j] += matrix[i][j];
             }
         }
-            //print col sums
-            System.out.println("Sum of cols:");
-            for (int j=0;j<cols;j++){
-                System.out.println("Column " + (j + 1) + ": " + colSums[j]);
-            }
+        //print col sums
+        System.out.println("Sum of cols:");
+        for (int j = 0; j < cols; j++) {
+            System.out.println("Column " + (j + 1) + ": " + colSums[j]);
         }
     }
+}
 
 
 

@@ -8,6 +8,7 @@ public class StringCaseConverter {
         System.out.println("converted to UpperCase:" + uppercaseString);
         System.out.println("Converted to LowerCase:" + lowercaseString);
     }
+
     public static String convertToUpperCase(String str) {
         return str.toUpperCase();
     }
