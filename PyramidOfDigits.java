@@ -16,7 +16,7 @@ public class PyramidOfDigits {
                 System.out.println(" ");
             }
             for (int k = 1; k <= i; k++) {
-                System.out.println(currentDigits + "");
+                System.out.println(currentDigits + " ");
                 currentDigits++;
 
             }
