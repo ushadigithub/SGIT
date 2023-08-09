@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lcm {
+public class Lcm {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first number:");
