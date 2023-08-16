@@ -9,7 +9,7 @@ public class CountCharacters {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 vowels++;
             } else if (ch >= 'a' && ch <= 'z') {
-                consonants++;
+                consonants++;   
             } else if (Character.isWhitespace(ch)) {
                 whitespaces++;
             }
