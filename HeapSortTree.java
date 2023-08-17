@@ -1,4 +1,4 @@
-public class HeapSortTree {
+    public class HeapSortTree {
         public static void heapSort(int[] array) {
             int n = array.length;
 
