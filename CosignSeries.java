@@ -5,9 +5,7 @@ public class CosignSeries {
         double sum = 1.0; // First term of the series (cos(0) = 1)
         double power = 1.0; // Initialize power of x
         int sign = -1; // Initialize the sign (negative for the first term)
-
-            System.out.println("Cosine Series:");
-        for (int i = 1; i < terms; i++) {
+        System.out.println("Cosine Series:");for (int i = 1; i < terms; i++) {
             power *= x * x; // Calculate the next power of x (x^n)
             int factorial = 2 * i; // Calculate 2n!
             sum += (sign * power) / factorial; // Add the next term to the sum
